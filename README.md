@@ -1,2 +1,2 @@
 # rust-intro
-An introduction to rust coding language
+An introduction to the rust coding language
