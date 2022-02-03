@@ -7,6 +7,7 @@ use rand::Rng;
 // However, the Rust team does provide a rand crate with said functionality.
 
 
+
 use std::cmp::Ordering;
 // First we add another use statement, bringing a type called std::cmp::Ordering into scope from the 
 // standard library. The Ordering type is another enum and has the variants Less, Greater, and Equal.
