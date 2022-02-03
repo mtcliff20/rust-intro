@@ -1,11 +1,16 @@
 use std::io;
- // standard input output library
-//If a type you want to use isn’t in the prelude, you have to bring 
-//that type into scope explicitly with a use statement.
+// standard input output library
+// If a type you want to use isn’t in the prelude, you have to bring 
+// that type into scope explicitly with a use statement.
 use rand::Rng;
 // Rust doesn’t yet include random number functionality in its standard library.
 // However, the Rust team does provide a rand crate with said functionality.
 
+
+use std::cmp::Ordering;
+// First we add another use statement, bringing a type called std::cmp::Ordering into scope from the 
+// standard library. The Ordering type is another enum and has the variants Less, Greater, and Equal.
+// These are the three outcomes that are possible when you compare two values.
 
 // Note: You won’t just know which traits to use and which methods and functions to call from a crate,
 // so each crate has documentation with instructions for using it. Another neat feature of Cargo is that running the 
