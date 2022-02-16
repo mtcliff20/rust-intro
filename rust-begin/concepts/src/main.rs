@@ -22,4 +22,14 @@ fn main() {
         // remainder
         let remainder = 43 % 5;
 
+        //BOOLEAN
+        let t = true;
+
+        let f: bool = false; // with explicit type annotation
+
+
+        // CHAR TYPE
+        let c = 'z';
+        let z = 'ℤ';
+        let heart_eyed_cat = '😻';
 }
