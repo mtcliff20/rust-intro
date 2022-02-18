@@ -32,4 +32,8 @@ fn main() {
         let c = 'z';
         let z = 'ℤ';
         let heart_eyed_cat = '😻';
+
+        // THE TUPLE TYPE
+        let tup: (i32, f64, u8) = (500, 6.4, 1);
+
 }
