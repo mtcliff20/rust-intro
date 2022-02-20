@@ -6,6 +6,12 @@ fn main() {
     const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
     let guess: u32 = "42".parse().expect("Not a number!");
 
+    // Floating Point
+        let x = 2.0; // f64
+        let y: f32 = 3.0; // f32
+
+    // Numeric Operations
+
         // addition
         let sum = 5 + 10;
 
@@ -22,18 +28,22 @@ fn main() {
         // remainder
         let remainder = 43 % 5;
 
-        //BOOLEAN
+    // BOOLEAN
         let t = true;
-
         let f: bool = false; // with explicit type annotation
 
-
-        // CHAR TYPE
+    // CHAR TYPE
         let c = 'z';
         let z = 'ℤ';
         let heart_eyed_cat = '😻';
 
-        // THE TUPLE TYPE
-        let tup: (i32, f64, u8) = (500, 6.4, 1);
+    // THE TUPLE TYPE
+        let tup = (500, 6.4, 1);
+        let (x, y, z) = tup;
+        println!("The value of y is: {}", y);
+
+    // ARRAY TYPE
+         let a = [1, 2, 3, 4, 5];
+
 
 }
