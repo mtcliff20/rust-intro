@@ -47,9 +47,14 @@ fn main() {
 
     // CALLING FUNCTIONS
         another_function();
+    // CALLING FUNCTION WITH PARAMS
+    another_function_with_param(5);
 
 }
 
 fn another_function() {
     println!("Another function.");
 }
+
+fn another_function_with_param(x: i32) {
+    println!("The value of x is: {}", x);
