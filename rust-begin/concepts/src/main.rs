@@ -43,7 +43,13 @@ fn main() {
         println!("The value of y is: {}", y);
 
     // ARRAY TYPE
-         let a = [1, 2, 3, 4, 5];
+        let a = [1, 2, 3, 4, 5];
 
+    // CALLING FUNCTIONS
+        another_function();
 
+}
+
+fn another_function() {
+    println!("Another function.");
 }
