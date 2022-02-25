@@ -51,6 +51,9 @@ fn main() {
         another_function_with_param(5);
     // CALLING FUNCTION WITH MULTIPLE PARAMS
         print_labeled_measurement(5, 'h');
+    // CALLING FUNCTION WITH RETURN VALUE
+        let x = function_with_return_value();
+        println!("The value of x is: {}", x);
 
 }
 
@@ -64,4 +67,8 @@ fn another_function_with_param(x: i32) {
 
 fn print_labeled_measurement(value: i32, unit_label: char) {
     println!("The measurement is: {}{}", value, unit_label);
+}
+
+fn function_with_return_value() -> i32 {
+    5
 }
