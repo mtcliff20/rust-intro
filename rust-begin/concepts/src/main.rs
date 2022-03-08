@@ -55,6 +55,10 @@ fn main() {
         let x = function_with_return_value();
         println!("The value of x is: {}", x);
 
+    // Basic Comments
+    let lucky_number = 7; // I’m feeling lucky today
+
+
 }
 
 fn another_function() {
