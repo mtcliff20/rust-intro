@@ -58,7 +58,19 @@ fn main() {
     // Basic Comments
     let lucky_number = 7; // I’m feeling lucky today
 
+    // If statements
+    ifStatements();
 
+
+}
+
+fn ifStatements(){
+    let number = 3;
+    if number < 5 {
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
 }
 
 fn another_function() {
